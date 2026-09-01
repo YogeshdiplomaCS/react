@@ -1,0 +1,17 @@
+*{
+	background-color:lightgreen;
+	text-align:center;
+	margin-top:5px;
+	font-family:Timesnewroman;
+	font-size:17.9px;
+}
+#rv{
+	background-color:yellow;
+}
+label{
+	color:blue;
+	background-color:transperent;
+}
+h1{
+	font-size:25px;
+}
