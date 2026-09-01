@@ -65,29 +65,41 @@ function App() {
 
   return (
     <div>
+	<table border="5" align="center">
       <h1>Registration Form</h1>
 
-      <label>Name : </label>
-      <input type="text" onChange={checkName} value={name} />
-      <br />
+	  <tr>
+      <td><label>Name : </label>
+      <input type="text" onChange={checkName} value={name} /></td>
+      <br /><br />
+	  </tr>
 	  
-	  <label>Registration no : </label>
-	  <input type="text"  onChange={checkrno} value={rno} />
-	  <br />
-
-	  <label>Mobile no : </label>
-	  <input type="number"  onChange={checkmno} value={mno} />
-	  <br />
-
-	  <label>address : </label>
-	  <input type="text"  onChange={checkadd} value={add} />
-	  <br />
+	  <tr>
+	  <td><label>Registration no : </label>
+	  <input type="text"  onChange={checkrno} value={rno} /></td>
+	  <br /><br />
+	  </tr>
 	  
-	  <label>E-mail : </label>
-	  <input type="text"  onChange={checkmail} value={mail} />
-	  <br />
-		  
-      <button onClick={shoot}>Submit</button>
+	  <tr>
+	  <td><label>Mobile no : </label>
+	  <input type="number"  onChange={checkmno} value={mno} /></td>
+	  <br /><br />
+	  </tr>
+	  
+	  <tr>
+	  <td><label>address : </label>
+	  <input type="text"  onChange={checkadd} value={add} /></td>	
+	  <br /><br />
+	  </tr>
+	  
+	  <tr>
+	  <td><label>E-mail : </label>
+	  <input type="text"  onChange={checkmail} value={mail} /></td>
+	  <br /><br />
+	  </tr>
+	  	  	
+      <button onClick={shoot} id="rv">Submit</button>
+	  </table>
     </div>
   );
 }
