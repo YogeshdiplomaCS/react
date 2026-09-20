@@ -14,7 +14,7 @@ const Layout=()=>{
 		 
 		<center>
 		<h2 id="lt">========================================================================================================================</h2>
-		<table width="100%" border="4" color="red">
+		<table width="100%">
 		<tr >
 		<td><Link className="bg" to="/">Home</Link></td>
 		<td><Link className="bg" to="/About">About</Link></td>
