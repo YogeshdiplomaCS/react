@@ -1,0 +1,38 @@
+body {
+  background-color: #f4f7f6;
+  font-family: Times new roman;
+  justify-content: center;
+  
+
+}
+
+.App {
+  width:500px;
+}
+
+
+h3 {
+  color: blue;
+}
+
+
+button {
+  width: 70%;
+  padding: 10px;
+  background-color: green;
+}
+
+button:hover {
+  background-color: red;
+}
+
+ol {
+  padding-left: 20px;
+  margin-top: 15px;
+}
+
+li {
+  color: #495057;
+}
+
+
